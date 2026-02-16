@@ -1,30 +1,3 @@
-# EKS DevOps Infrastructure
-
-Complete DevOps infrastructure setup for deploying a Go application on AWS EKS with GitOps, following best practices for High Availability, Scalability, and Security.
-
-## 📊 Architecture Diagrams
-
-Generate professional AWS architecture diagrams:
-
-```powershell
-# Generate all 6 diagrams from ARCHITECTURE.md
-cd diagrams
-generate_all.bat
-
-# Or manually
-python generate_all_diagrams.py
-```
-
-**Generated Diagrams:**
-1. High-Level Architecture - Complete system overview
-2. Network Architecture - VPC and subnet design
-3. CI/CD Pipeline Flow - 6-stage build pipeline
-4. Security Architecture - Defense-in-depth layers
-5. High Availability Design - Multi-AZ with auto-scaling
-6. GitOps Workflow - Deployment sequence
-
-See [diagrams/README.md](diagrams/README.md) for details.
-
 ## 📋 Assignment Instructions
 
 As a DevOps engineer, you are responsible to complete the tasks by following these key areas: High Availability, Scalability, Security.
